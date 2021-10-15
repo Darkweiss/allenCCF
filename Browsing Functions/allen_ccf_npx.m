@@ -21,7 +21,7 @@ bregma = [540,0,570];
 
 % If not already loaded in, load in atlas
 if nargin < 3
-    allen_atlas_path = 'C:\Users\Andrew\OneDrive for Business\Documents\Atlases\AllenCCF';
+    allen_atlas_path = 'C:\Users\mfbx5lg2\OneDrive - The University of Manchester\PhD project\Code\Neuropixel insertion and reconstruction\Neuropixel insertion planning';
     if isempty(allen_atlas_path)
         error('Enter path where Allen CCF is stored at Line 23');
     end
